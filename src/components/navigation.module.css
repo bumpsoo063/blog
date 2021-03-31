@@ -1,0 +1,19 @@
+.ul {
+    display: inline-block;
+    list-style-type: none;
+    text-align: center;
+    padding-left: 32px;
+    padding-right: 32px;
+}
+
+.li {
+    display: inline-block;
+    text-align: center;
+    list-style-type: none;
+}
+
+.nav {
+    text-align: center;
+    width: 300px;
+    margin:0 auto;
+}
