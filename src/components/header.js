@@ -1,6 +1,6 @@
 import React from "react"
-import logo from "./logo.png"
-import * as styles from "./header.module.css"
+import logo from "../png/logo.png"
+import * as styles from "../styles/header.module.css"
 import {Link} from "gatsby"
 
 export default function Header() {

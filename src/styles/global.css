@@ -1,0 +1,10 @@
+@font-face {
+    font-family: NanumGothicCoding;
+    src:local('NanumGothicCoding'), url(../fonts/NanumGothicCoding-Regular.ttf) format('truetype')
+}
+
+
+html {
+    font-family: NanumGothicCoding;
+    background-color: #F9E8F7;
+}

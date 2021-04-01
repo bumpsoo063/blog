@@ -4,6 +4,8 @@
     text-align: center;
     padding-left: 32px;
     padding-right: 32px;
+    font-size: x-large;
+    font-weight: bold;
 }
 
 .li {
@@ -14,6 +16,6 @@
 
 .nav {
     text-align: center;
-    width: 300px;
+    width: 400px;
     margin:0 auto;
 }
