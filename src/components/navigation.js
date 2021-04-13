@@ -6,9 +6,9 @@ export default function Navigation() {
     return (
             <nav className={styles.nav}>
                 <li className={styles.li}>
-                    <ul className={styles.ul}>Rev</ul>
-                    <ul className={styles.ul}>Dev</ul>
-                    <ul className={styles.ul}>Inv</ul>
+                    <ul className={styles.ul}><Link to="/Rev">Rev</Link></ul>
+                    <ul className={styles.ul}><Link to="/Dev">Dev</Link></ul>
+                    <ul className={styles.ul}><Link to="/Inv">Inv</Link></ul>
                 </li>
             </nav>
     )
