@@ -6,18 +6,20 @@
 
 html {
     font-family: NanumGothicCoding;
-    background-color: #F9E8F7;
+    /* background-color: #F9E8F7; */
+    background-color: #1E1E24;
+    color: #FFFFFC;
 }
 
 a:link {
-    color: black;
+    color: #FFFFFC;
     text-decoration: none;
 }
 a:visited {
-    color: black;
+    color: #FFFFFC;
     text-decoration: none;
 }
 a:hover {
-    color: black;
+    color: #FFFFFC;
     text-decoration: none;
 }

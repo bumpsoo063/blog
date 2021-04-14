@@ -1,19 +1,24 @@
 import React from "react"
 import { graphql, Link} from "gatsby"
 import Layout from "../components/layout.js"
+// import * as stlyes from "../styles/category-layout.module.css"
+
 const CategoryPage = ({ data, pageContext }) => (
   <Layout>
+    <center>
     <h1>{pageContext.category} category</h1>
+    </center>
     <p>
       {/* There are <b>{data.allMarkdownRemark.totalCount}</b> posts in the{" "} */}
       {/* <b>{pageContext.category}</b> category. */}
     </p>
     {data.allMarkdownRemark.nodes.map(post => (
-      <Link to={post.fields.slug}>
-      <h3>
-        {post.frontmatter.title}<br/>
-      </h3>
-      </Link>
+      <center>
+          <h3>
+            <Link to={post.fields.slug}>{post.frontmatter.title}</Link>
+          </h3>
+      </center>
+      
     ))}
   </Layout>
 )
@@ -27,6 +32,7 @@ export const pageQuery = graphql`
       nodes {
         frontmatter {
           title
+          date
         }
         fields {
           slug

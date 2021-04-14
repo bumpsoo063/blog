@@ -1,16 +1,17 @@
 import React from "react"
 import * as styles from "../styles/footer.module.css"
-import caretSquareUp from "../svg/caret-square-up.svg"
+import triangle from "../png/iconmonstr-triangle-4-240.png"
 
 export default function Footer() {
     return (
+        <center>
         <div className={styles.div}>
             <div className={styles.divcell}>©bumpsoo063@protonmail.ch</div>
             <div className={styles.divcell}>
-            <img src={caretSquareUp} alt="hi" className={styles.svg} onClick={go}></img>
+            <img src={triangle} alt="hi" className={styles.png} onClick={go}></img>
             </div>
-            
         </div>
+        </center>
     )
 }
 
